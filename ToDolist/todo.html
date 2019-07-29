@@ -1,0 +1,52 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Git er Done</title>
+    <link rel="stylesheet" href="todo.css">
+</head>
+<body>
+<img class = "logo" src="./img/git.png" alt="GitRone"> 
+<header> <h1> Git-R-Done</h1> </header> 
+
+<div class="todo max100"><h2>New ToDo</h2>
+
+</div>
+<form action="">
+    <Input class= "left todotext" id= "ToDo" type="text" placeholder="To-Do Text Goes Here">
+    <select name="Priority" id="Priority"  class="dropdown">
+        <option value="Low">Low </option>
+        <option value="Medium" selected>Medium</option>
+        <option value="High">High</option>
+    </select>
+    <input id="TDDate" type="text" placeholder="Due Date DD/MM/YYYY">
+    <input id= "Submit" type="submit" value="Add To-Do">
+</form>
+
+
+
+<section id="Open" class="sectionborder">
+<h2>Current ToDo</h2>
+    <p class ="todoborder"> Test this shit</p>
+    <p class ="todoborder"> How does this look</p>
+
+
+
+
+
+
+
+</section>
+
+<section id="Closed" class="sectionborder" >
+        <h2>Closed ToDo</h2>
+        <p class ="todoborder"> Test this shit</p>
+        <p class ="todoborder"> How does this look</p>
+
+    
+</section>
+
+    <script src="todo.js"></script>
+</body>
+</html>
